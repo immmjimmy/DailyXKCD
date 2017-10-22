@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "DailyXKCD",
+  "description": "displays a random comic everyday + explanation",
+  "version": "1.0",
+  "icons": {"128": "icon.png"},
+
+  "browser_action": { 
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "http://*/*", "https://*/*"
+  ]
+}
